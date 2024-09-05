@@ -31,4 +31,27 @@ Make sure you have the following installed:
 ```bash
 git clone https://github.com/Anant1213/adversarial_attack.git
 cd adversarial-attack-project
+```
+
+2. Install the required dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+3. Command for running backend
+   ```bash
+   cd backend
+   uvicorn app:app --reload
+   ```
+4. Start the frontend
+   ```bash
+   cd frontend
+   streamlit run app.py
+   ```
+
+### Contributing
+Feel free to submit issues, fork the repository, and create pull requests to contribute to this project.
+
+
 
